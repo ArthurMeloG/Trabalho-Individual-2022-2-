@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+  # services criam containers 
+  db:
+    container_name: mongo-db
+    image: mongo:3.5
+    ports:
+      - "27017:27017"
+    # arquivo de variaveis
+    env_file:
+      -  config/mongo_exemple.env
+    # armazena os dados do container
+    volumes:
+      - mongo-volume:/data/db
+  aplication:
+    container_name: aplication
+    build: .
+    
+volumes:
+  mongo-volume: {}
