@@ -9,7 +9,7 @@ services:
       - "27017:27017"
     # arquivo de variaveis
     env_file:
-      -  config/mongo_exemple.env
+      -  metabase/config/mongo_exemple.env
     # armazena os dados do container
     volumes:
       - mongo-volume:/data/db
