@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "poetry_base"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "3.9"
 altair="4.2.0"
 attrs="22.2.0"
 bpemb="0.3.4"
