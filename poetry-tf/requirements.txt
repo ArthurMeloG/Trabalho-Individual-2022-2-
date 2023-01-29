@@ -9,7 +9,6 @@ cycler==0.11.0
 entrypoints==0.4
 exceptiongroup==1.1.0
 fonttools==4.38.0
-gensim==3.8.3
 idna==3.4
 importlib-resources==5.10.2
 iniconfig==1.1.1
