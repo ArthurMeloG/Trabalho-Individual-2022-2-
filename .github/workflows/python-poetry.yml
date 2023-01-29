@@ -30,6 +30,6 @@ jobs:
         curl -sSL https://install.python-poetry.org | POETRY_VERSION=1.1.12 python3 -
         cd poetry-meu-pip
         poetry add `cat requirements.txt`
-        poetry config pypi-token.pypi "$secrets.TOKEN_GCES"
+        poetry config pypi-token.pypi pypi-AgEIcHlwaS5vcmcCJDc0NzBkNTQzLWZiZjAtNDkyMi04MDMxLTIzNGExMDgzYzEzNgACKlszLCI4YjI0N2I4NS1jYTNmLTQ4ZjYtOTM1Yy03Y2NmYzE3YjIzYjgiXQAABiAt1wT8ly0eHTc1wwkQGjKlZLwPYexkNpblPjiXYiiW7A
         poetry build
         poetry publish
