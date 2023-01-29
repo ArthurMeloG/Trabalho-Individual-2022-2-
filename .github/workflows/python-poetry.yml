@@ -22,13 +22,13 @@ jobs:
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
-        python-version: "3.9"
+        python-version: "3.10"
     - name: Poetry Install dependencies
       run: |
         python -m pip install --upgrade pip
         curl -sSL https://install.python-poetry.org | python3 -
         poetry new my-poetry
-        cp requirements.txt my-poetry/requirements.txt
+        cp requirements.txt my-poetry
         cd my-poetry
-        poetry install `cat requirements.txt`
+        poetry add `cat requirements.txt`
 
