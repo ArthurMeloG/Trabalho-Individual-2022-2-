@@ -23,4 +23,5 @@ jobs:
     - name: Super-Linter
       uses: github/super-linter@v4.10.1
       env:
+        INPUT_PATHS: src/*.py
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
