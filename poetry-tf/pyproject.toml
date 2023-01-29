@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-tf"
+name = "poetry-gces"
 version = "0.1.0"
 description = "Projeto final da disciplina de gces - UnB"
 authors = ["ArthurMeloG"]
