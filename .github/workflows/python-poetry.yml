@@ -26,6 +26,8 @@ jobs:
 #         
     - name: Poetry Install dependencies
       run: |
+        echo "Clearing cache..."
+        cache clear
         python -m pip install --upgrade pip
         curl -sSL https://install.python-poetry.org | python3 -
         cd poetry-meu-pip
