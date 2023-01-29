@@ -29,6 +29,6 @@ jobs:
         python -m pip install --upgrade pip
         curl -sSL https://install.python-poetry.org | python3 -
         cd poetry-tf
-        poetry config pypi-token.pypi "${{ secrets.TOKEN_GCES }}"
+        poetry config pypi-token.pypi "pypi-AgEIcHlwaS5vcmcCJDc0NzBkNTQzLWZiZjAtNDkyMi04MDMxLTIzNGExMDgzYzEzNgACKlszLCI4YjI0N2I4NS1jYTNmLTQ4ZjYtOTM1Yy03Y2NmYzE3YjIzYjgiXQAABiAt1wT8ly0eHTc1wwkQGjKlZLwPYexkNpblPjiXYiiW7A"
         poetry build
         poetry publish
