@@ -27,8 +27,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         curl -sSL https://install.python-poetry.org | python3 -
-        poetry new my-poetry
-        cp requirements.txt my-poetry
-        cd my-poetry
+        cd poetry_base
         poetry add `cat requirements.txt`
 
