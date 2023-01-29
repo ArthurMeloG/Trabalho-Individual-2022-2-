@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-meu-pip"
-version = "0.1.0"
+version = "5.1.0"
 description = "Projeto final da disciplina de gces - UnB"
 authors = ["ArthurMeloG"]
 readme = "README.md"
